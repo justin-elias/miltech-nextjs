@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "next/babel", {
+        "transform-runtime": {
+          "absoluteRuntime": false,
+          "corejs": 3,
+          "regenerator": true,
+          "helpers": true,
+          "useESModules": false
+        }
+      }
+    ]
+  ],
+  "plugins": [
+
+  ]
+}
