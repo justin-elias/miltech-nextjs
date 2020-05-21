@@ -7,9 +7,19 @@
     "build": "next build",
     "start": "next start"
   },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  },
   "dependencies": {
     "next": "9.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "core-js": "^3.6.5",
+    "handlebars": "^4.7.6",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
   }
 }
