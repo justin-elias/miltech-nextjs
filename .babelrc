@@ -8,11 +8,11 @@
           "regenerator": true,
           "helpers": true,
           "useESModules": false
-        }
+        },
+      "targets": {
+        "node": "current"
       }
+    }
     ]
-  ],
-  "plugins": [
-
   ]
 }
