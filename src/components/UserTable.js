@@ -9,7 +9,9 @@ import Check from '@material-ui/icons/Check';
 import Clear from '@material-ui/icons/Clear';
 import FilterList from '@material-ui/icons/FilterList';
 import ViewColumn from '@material-ui/icons/ViewColumn';
+import ProgressIndicator from "./ProgressIndicator";
 
+// Icons used to indicate various table functions
 const tableIcons = {
     Check: forwardRef((props, ref) => <Check {...props} ref={ref} />),
     Clear: forwardRef((props, ref) => <Clear {...props} ref={ref} />),
@@ -25,10 +27,12 @@ const styles = () => ({
         ...container,
         elevation: "2",
         width: "82vw",
+        position: "relative",
     },
     tableCell: {
-        align: "center"
-    }
+        align: "center",
+    },
+
 });
 const useStyles = makeStyles(styles);
 
@@ -39,17 +43,28 @@ export default function UserTable() {
 
     const [dataList, setDataList] = useState();
 
+    const inProgress = () => {
+        if (!dataList){
+            return (
+                <ProgressIndicator/>
+            )
+        }
+    };
+
     useEffect(() => {
         const getData = async () => {
             if(!dataList) {
                 setDataList(await getUsers(dataURI));
             }
         };
-        getData();
+
+        // Setting timeout just to show there is a loading indicator
+        setTimeout(getData, 2000)
     }, []);
 
     return (
         <Container className={classes.container}>
+            {inProgress()}
             <MaterialTable title="Sortable & Filterable by each column" columns={[{title: "Name", field: "name"},
                 {title: "Username", field: "username"},
                 {title: "Email", field: "email"}, {title: "Phone", field: "phone"}]} data={dataList} options={{
@@ -60,8 +75,8 @@ export default function UserTable() {
                 paging: false,
                 sorting: true,
                 draggable: false
-            }}
-            icons={tableIcons}/>
+            }} icons={tableIcons}
+            />
         </Container>
     )
 };

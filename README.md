@@ -10,13 +10,11 @@ Project submission created for the MilTech [VID Full Stack internship position a
 * [Jest](https://jestjs.io) Javascript Testing Framework
 
 ## Installation
-To install the project with NPM run:
+To install the project:
  
-```npm install``` 
-
-or with yarn:
-
- ```yarn add``` 
+```
+npm install
+``` 
  
  from the command line within the project directory.
  
