@@ -1,6 +1,7 @@
 # MilTech VID Internship Submission
 Project submission created for the MilTech [VID Full Stack internship position at Montana State University](https://virtualindustryday.org/internship.html)
 
+[Hosted on Vercel](https://miltech-nextjs.now.sh)
 
 ## Built With
 * [NextJS](https://nextjs.org) React Framework
