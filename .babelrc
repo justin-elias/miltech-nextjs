@@ -4,6 +4,7 @@
       "next/babel", {
         "transform-runtime": {
           "absoluteRuntime": false,
+          "runtime": "automatic",
           "corejs": 3,
           "regenerator": true,
           "helpers": true,
@@ -11,7 +12,21 @@
         },
       "targets": {
         "node": "current"
-      }
+      },
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": ["./"],
+            "alias": {
+              "src": "./src",
+              "components": "./src/components",
+              "styling": "./src/styling",
+              "ex1": "./src/ex1"
+            }
+          }
+        ]
+      ]
     }
     ]
   ]

@@ -1,10 +1,10 @@
-import UserTable from "./components/UserTable";
+import UserTable from "../src/components/UserTable";
 import React from "react";
-import FooterContent from "./components/FooterContent"
+import FooterContent from "../src/components/FooterContent"
 import Container from "@material-ui/core/Container";
 import {makeStyles} from "@material-ui/styles";
-import {container} from "./styling/globalStyling";
-import HeaderContent from "./components/HeaderContent";
+import {container} from "../src/styling/globalStyling";
+import HeaderContent from "../src/components/HeaderContent";
 
 const useStyles = makeStyles(() => ({
     container: {

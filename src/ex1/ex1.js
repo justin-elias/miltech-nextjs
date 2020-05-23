@@ -49,11 +49,11 @@ export const sortUsers = (userList, property='username') => {
 };
 
 /**
- * Fetch users from 'https://jsonplaceholder.typicode.com/users'
+ * Fetch users from remote. 'https://jsonplaceholder.typicode.com/users' as default
  * @param {String} uri to pull data from
  * @returns {String}
  */
-export const getUsers = async(uri) => {
+export const getUsers = async(uri= "https://jsonplaceholder.typicode.com/users") => {
 
     const options = {
         uri: uri,
