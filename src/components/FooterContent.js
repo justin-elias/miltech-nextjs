@@ -4,8 +4,9 @@ import {makeStyles} from "@material-ui/core/styles";
 import {container} from "../styling/globalStyling";
 import Container from "@material-ui/core/Container";
 
-
+/* eslint-disable no-unused-vars */
 const useStyles = makeStyles((theme) => ({
+    /* eslint-enable no-unused-vars */
     text: {
         position: "absolute",
         top: "50%",

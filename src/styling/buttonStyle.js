@@ -8,7 +8,7 @@ const buttonStyle = {
     button: {
         minHeight: "auto",
         minWidth: "auto",
-        background: 'linear-gradient(#00F3FF, #2E0259)',
+        background: "linear-gradient(#00F3FF, #2E0259)",
         color: primaryColor,
         boxShadow:
             "0 2px 2px 0 rgba(65, 110, 128, 0.28), 0 3px 1px -2px rgba(65, 110, 128, 0.28), 0 1px 5px 0 rgba(65, 110, 128, 0.28)",

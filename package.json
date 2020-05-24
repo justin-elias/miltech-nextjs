@@ -7,14 +7,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --fix pages/**/*.js src/**/*.js"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.9.6",
     "@babel/runtime-corejs3": "^7.9.6",
     "@jest/environment": "^26.0.1",
     "@jest/globals": "latest",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "eslint-plugin-react": "^7.20.0",
     "jest": "^26.0.1"
   },
   "dependencies": {

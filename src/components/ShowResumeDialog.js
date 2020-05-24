@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     ...container,
     appBar: {
         position: "relative",
-        background: 'linear-gradient(#00F3FF, #2E0259)',
+        background: "linear-gradient(#00F3FF, #2E0259)",
         color: theme.palette.primary.contrastText
     },
     title:{

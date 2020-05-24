@@ -8,6 +8,7 @@ Project submission created for the MilTech [VID Full Stack internship position a
 * [Material-UI](https://material-ui.com)
     - [Material-Table](https://material-table.com/)
 * [Jest](https://jestjs.io) Javascript Testing Framework
+* [ESLint](https://eslint.org)
 
 ## Installation
 To install the project:

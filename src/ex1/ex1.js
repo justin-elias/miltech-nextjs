@@ -7,7 +7,7 @@ import rp from "request-promise-native";
  * @param property {String} used for sorting
  *@return {Array} | {number} sorted by property
  */
-export const sortUsers = (userList, property='username') => {
+export const sortUsers = (userList, property="username") => {
 
     let invalidProperty = false;
 

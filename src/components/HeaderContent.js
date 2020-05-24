@@ -30,4 +30,4 @@ export default function UserTable() {
             <ShowResumeDialog buttonText={"See My Resume"}/>
         </Container>
     )
-};
+}
