@@ -13,11 +13,11 @@ const useStyles = makeStyles((theme) => ({
         transform: "translate(-50%, -50%)",
         elevation: "4",
         zIndex: "3",
-        backgroundColor: theme.palette.secondary.main
+        backgroundColor: theme.palette.secondary.main,
     },
     indicator: {
         marginLeft: "45%",
-        color: "#67119E"
+        color: "#2E0259"
     }
 }));
 export default function ProgressIndicator() {
@@ -26,7 +26,7 @@ export default function ProgressIndicator() {
     return (
         <Card className={classes.card}>
             <CardContent>
-                <Typography variant={"h2"} component={"h6"}>Loading Data</Typography>
+                <Typography variant={"h2"} component={"h6"} color={"textPrimary"}>Loading Data</Typography>
                 <CircularProgress className={classes.indicator} color={"inherit"}/>
             </CardContent>
         </Card>
