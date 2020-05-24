@@ -9,6 +9,8 @@ import HeaderContent from "../src/components/HeaderContent";
 const useStyles = makeStyles(() => ({
     container: {
         ...container,
+        backgroundImage: "radial-gradient(circle farthest-side, #fff 50%, #2E0259 80%)"
+
 
     }
 }));

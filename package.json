@@ -16,7 +16,6 @@
     "@jest/globals": "latest",
     "babel-jest": "^26.0.1",
     "jest": "^26.0.1"
-
   },
   "dependencies": {
     "@material-ui/core": "^4.9.14",
@@ -28,6 +27,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "request": "^2.88.2",
-    "request-promise-native": "^1.0.8"
+    "request-promise-native": "^1.0.8",
+    "prop-types": "latest",
+    "classnames": "latest"
   }
 }

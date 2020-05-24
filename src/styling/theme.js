@@ -6,19 +6,19 @@ const themeBase = createMuiTheme({
     palette: {
         primary: {
             main: "#C4E0F5",
+            contrastText: "#fff"
+
 
         },
         secondary: {
-            main: "#F5C5C4",
-            dark: "#67119E"
-
+            main: "#fff"
         },
         error: {
             main: red.A400,
         },
         background: {
             paper: "#f5f5dc",
-            default: "fff"
+            default: "fff",
         },
     },
     typography: {
@@ -26,12 +26,12 @@ const themeBase = createMuiTheme({
         h1: {
             fontFamily: ["Asap", "sans-serif"].join(","),
             fontWeight: "700",
-            color: "#333"
+            color: "#fff"
         },
         h2: {
             fontFamily: ["Asap", "sans-serif"].join(","),
             fontWeight: "700",
-            color: "#333"
+            color: "#fff"
         },
         h3: {
             fontFamily: ["Asap", "sans-serif"].join(","),
