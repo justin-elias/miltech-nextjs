@@ -1,7 +1,7 @@
 # MilTech VID Internship Submission
 Project submission created for the MilTech [VID Full Stack internship position at Montana State University](https://virtualindustryday.org/internship.html)
 
-[Hosted on Vercel](https://miltech-nextjs.now.sh)
+Online demo [Hosted on Vercel](https://miltech-nextjs.now.sh)
 
 ## Built With
 * [NextJS](https://nextjs.org) React Framework
@@ -11,7 +11,7 @@ Project submission created for the MilTech [VID Full Stack internship position a
 * [ESLint](https://eslint.org)
 
 ## Installation
-To install the project:
+To install the project run:
  
 ```
 npm install
@@ -37,6 +37,6 @@ npm install
  
  ## Notes
  
- I wrote the sorting function to be able to sort the data by headers before I found the Material-Table component, which 
+ I wrote the [ex1.js](src/ex1/ex1.js) sorting function to be able to sort the data by headers before I found the Material-Table component, which 
  included it's own sort. I left my sort function in the project to have a function that returned data for the test suite.
 

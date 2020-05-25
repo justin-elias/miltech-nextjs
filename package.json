@@ -5,7 +5,7 @@
   "sideEffects": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run lint && next build",
     "start": "next start",
     "test": "jest",
     "lint": "eslint --fix pages/**/*.js src/**/*.js"
