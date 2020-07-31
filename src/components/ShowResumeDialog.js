@@ -78,7 +78,7 @@ export default function ShowResumeDialog(props) {
                     </Toolbar>
                 </DialogTitle>
                 <DialogContent className={classes.dialogContent}>
-                    <iframe src={"/assets/Justin_Elias_Resume_2020.pdf"} width={"100%"} height={"800"}/>
+                    <iframe src={"/assets/Justin_Elias_Resume.pdf"} width={"100%"} height={"800"}/>
                 </DialogContent>
             </Dialog>
         </div>
