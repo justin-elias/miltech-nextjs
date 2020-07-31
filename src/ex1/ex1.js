@@ -1,4 +1,4 @@
-import rp from "request-promise-native";
+import axios from "axios";
 
 /**
  * Sort the array of users
@@ -53,11 +53,7 @@ export const sortUsers = (userList, property="username") => {
  * @param {String} uri to pull data from
  * @returns {String}
  */
-export const getUsers = async(uri= "https://jsonplaceholder.typicode.com/users") => {
+export const getUsers = async (uri= "https://jsonplaceholder.typicode.com/users") => {
 
-    const options = {
-        uri: uri,
-        json: true
-    };
-    return rp.get(options);
+    return await axios.get(uri);
 };

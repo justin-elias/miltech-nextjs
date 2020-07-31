@@ -55,7 +55,8 @@ export default function UserTable() {
     useEffect(() => {
         const getData = async () => {
             if(!dataList) {
-                setDataList(await getUsers(dataURI));
+                const data = await getUsers(dataURI)
+                setDataList(data.data);
             }
         };
 
